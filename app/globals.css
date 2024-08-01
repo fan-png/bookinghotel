@@ -16,6 +16,12 @@
   }
 }
 
+@layer components {
+  .tulisan {
+    @apply text-violet-600;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
