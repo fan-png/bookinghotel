@@ -1,5 +1,6 @@
 import Container from "../Container";
 import Logo from "./Logo";
+import Search from "@/app/components/Navbar/Search";
 
 const Navbar = () => {
   return (
@@ -11,6 +12,7 @@ const Navbar = () => {
           "
           >
             <Logo />
+            <Search />
           </div>
         </Container>
       </div>
