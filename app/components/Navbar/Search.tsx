@@ -59,7 +59,19 @@ const Search = () => {
             items-center 
             gap-3
           "
-        ></div>
+        >
+          <div className="hidden sm:block"> Guest Label</div>
+          <div
+            className="
+              p-2
+              bg-rose-500
+              rounded-full
+              text-white
+            "
+          >
+            <BiSearch size={18} />
+          </div>
+        </div>
       </div>
     </div>
   );
