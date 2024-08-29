@@ -9,16 +9,17 @@ const Logo = () => {
   return (
     <div
       onClick={() => router.push("/")}
-      className="flex items-center cursor-pointer"
+      className="flex items-center flex-col cursor-pointer"
     >
       <Image
         className="hidden md:block "
-        src="/images/logo.svg"
+        src="/images/hotel.png"
         height="50"
         width="50"
         alt="Logo"
       />
-      <span className="travella">Travella</span>
+
+      <span className="travella uppercase font-bold text-white">Vivid Vista Hotel</span>
     </div>
   );
 };

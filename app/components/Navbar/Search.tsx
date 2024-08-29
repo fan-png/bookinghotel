@@ -1,4 +1,4 @@
-import { BiSearch } from "react-icons/bi";
+import { MdOutlineLocationSearching } from "react-icons/md";
 
 const Search = () => {
   return (
@@ -45,6 +45,7 @@ const Search = () => {
             text-center
           "
         >
+          
           Duration Label
         </div>
 
@@ -59,9 +60,16 @@ const Search = () => {
             items-center 
             gap-3
           "
-        ></div>
+        >
+          <div className="hidden sm:block"> Guest Label </div>
+          <div className="p-2 bg-rose-500 rounded-full text-white">
+            <MdOutlineLocationSearching size={17}/>
+          </div>
+        </div>
+
+        
+        </div>
       </div>
-    </div>
   );
 };
 
